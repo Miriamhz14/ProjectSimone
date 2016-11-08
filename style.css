@@ -105,7 +105,8 @@ footer {
 }
 
 #try {
-background-color: #aaaaaa;
+background-color: #C71585;
+color: white;
 display: none;
 font-size: 20px;
 margin-left: 620px;
