@@ -4,7 +4,7 @@ https://miriamhz14.github.io/ProjectSimone/
 
 ### Planning Phase:
 - create a child's game using some of Simon's rules
-- create a random function for the pattern that would display 4 numbers and then increse as the player does better
+- create a random function for the pattern that would display 2 numbers and then increse as the player does better
 - create function to record what button is being pressed and that it matches the pattern
 - have a way to let user know that the button was clicked (color change, sound, opacity change, etc..)
 - create a function to keep score and determine when the player has won the game.
@@ -13,7 +13,7 @@ https://miriamhz14.github.io/ProjectSimone/
 
 
 ### How it works:
-- the game starts with a random pattern displayed on the botttom which has four numbers.
+- the game starts with a random pattern displayed on the botttom which has five numbers.
 - user must click on the pattern correctly to move on. (works only with mouse)
 - if user passes the first round the pattern will increase by one more number.
 - if user fails to follow the pattern they will fail and have a chance to try again.
