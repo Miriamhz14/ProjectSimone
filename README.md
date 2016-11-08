@@ -12,6 +12,11 @@ https://miriamhz14.github.io/ProjectSimone/
 - used HTML, CSS, JavaScript and JQuery on this project
 
 
+###Wireframes
+![alt tag](http://i.imgur.com/Se13yG0l.jpg)
+![alt tag](http://i.imgur.com/QR31wCEl.jpg)
+
+
 ### How it works:
 - the game starts with a random pattern displayed on the botttom which has five numbers.
 - user must click on the pattern correctly to move on. (works only with mouse)
