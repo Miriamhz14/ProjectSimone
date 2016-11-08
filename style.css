@@ -1,13 +1,19 @@
 body {
-  background-color: #ffd1dc;
+  background-color: #F283B6;
+  background-image: url('sidewalk.jpg');
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 h1 {
   font-family: 'Coiny', cursive;
-  font-size: 60px;
-  margin-left: 570px;
+  font-size: 75px;
+  margin-top: 20px;
+  margin-left: 530px;
   color: #C71585;
-  text-shadow: 0 0 4px white;
+  text-shadow: 0 0 6px white;
+  letter-spacing: 2px;
 }
 
 div {
@@ -16,7 +22,7 @@ div {
   height: 300px;
 }
 .btn {
-  font-size: 20px;
+  font-size: 40px;
   border: none;
   border-radius: 100px;
 }
@@ -24,7 +30,8 @@ div {
 button:nth-child(1) {
    width:  150px;
    height: 140px;
-   background-color: #cb99c9;
+   background-color: #BA55D3;
+   color: #5E2D79;
    margin: 0;
 }
 
@@ -32,6 +39,7 @@ button:nth-child(2) {
    width:  150px;
    height: 140px;
    background-color: #77dd77;
+   color: #308014;
    margin-right: 0;
 }
 
@@ -39,6 +47,7 @@ button:nth-child(3) {
   width:  150px;
   height: 140px;
   background-color: #fdfd96;
+  color: #999900;
 }
 
 button:nth-child(4) {
@@ -46,6 +55,7 @@ button:nth-child(4) {
    height: 140px;
    margin-right: 0;
    background-color: #779ecb;
+   color: #325C74;
 }
 
 
@@ -53,7 +63,7 @@ button:nth-child(4) {
   width: 100px;
   height: 50px;
   font-size: 20px;
-  margin-left: 630px;
+  margin-left: 620px;
   background-color: #C71585;
   color: white;
   display: inline-block;
@@ -61,7 +71,7 @@ button:nth-child(4) {
 }
 
 footer {
-  background-color: # e5e5e5;
+  background-color: #EDBFB7;
   padding: 10px;
   position: absolute;
   width: 100%;
@@ -73,12 +83,13 @@ footer {
 }
 
 #score {
-  width:  100px;
-
+  width:  100%;
+  margin-left: 100px;
 }
 
 #pat {
   width: 100%;
+  margin-left: 100px;
 }
 
 #try {
@@ -86,12 +97,12 @@ background-color: #aaaaaa;
 display: none;
 padding: 10px;
 font-size: 20px;
-margin-left: 630px;
+margin-left: 620px;
 cursor: pointer;
 }
 
 #status{
-  margin-left: 0;
+  margin-left: 100px;
 }
 
 

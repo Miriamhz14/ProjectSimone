@@ -38,10 +38,10 @@ $(document).ready(function(){
   tracker.push(Number($(this).text()));
   for (var i = 0; i < tracker.length; i++) {
     if ((tracker.toString() === arrRnd.toString()) && (tracker.length === arrRnd.length)){
-      status.text('Status: Good Job!!!!');
-      score++;
-      scoreDisplay.text('Score: ' + score);
-      tracker = [];
+        status.text('Status: Good Job!!!!');
+        score++;
+        scoreDisplay.text('Score: ' + score);
+        tracker = [];
       if (score === 1){
         status.text('YOU WON!!!!!!!!!');
         status.animate({'font-size':'40px'},100);
@@ -51,14 +51,15 @@ $(document).ready(function(){
         status.animate({'margin-left':'0px'},100);
       }
     }
-    if ((tracker.toString() !== arrRnd.toString()) && (tracker.length === arrRnd.length)){
-      status.text('Status: Try Again');
-      restart.css('display','inline-block');
+      if ((tracker.toString() !== arrRnd.toString()) && (tracker.length === arrRnd.length)){
+        status.text('Status: Try Again');
+        restart.css('display','inline-block');
     }
   }
     console.log(tracker);
     // goes pack to when the game first started  (restart of game)
-  restart.click(function(event){
+
+    restart.click(function(event){
     location.reload();
   })
 });
@@ -66,17 +67,17 @@ $(document).ready(function(){
 
   // used to create a random pattern that spits out four numbers and after that adds one more
     var pattern = function(num){
-         for (var i = 0; i<num; i++){
-          arrRnd.push(rndRange(1,4));
+      for (var i = 0; i<num; i++){
+        arrRnd.push(rndRange(1,4));
         }
         $('#pat').text('Pattern: ' + arrRnd);
     }
   cont.click(function(event){
-    if (counter === 0){
-      pattern(4);
-      counter++;
+      if (counter === 0){
+        pattern(4);
+        counter++;
     }
-    else {
+     else {
       pattern(1);
       counter++;
     }

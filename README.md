@@ -1,6 +1,6 @@
 # ProjectSimone
 ### Link:
-https://miriamhz14.github.io/DemoDeploy/
+https://miriamhz14.github.io/ProjectSimone/
 
 ### Planning Phase:
 - create a child's game using some of Simon's rules
