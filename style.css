@@ -1,6 +1,7 @@
 body {
   background-color: #F283B6;
   background-image: url('sidewalk.jpg');
+  /* took picture from google images */
   background-position: cover;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -16,15 +17,16 @@ h1 {
   letter-spacing: 2px;
 }
 
-div {
+.container {
   margin: 0 auto;
-  width: 400px;
+  width: 900px;
   height: 300px;
 }
 .btn {
   font-size: 40px;
   border: none;
   border-radius: 100px;
+  display: inline-block;
 }
 
 button:nth-child(1) {
@@ -58,16 +60,26 @@ button:nth-child(4) {
    color: #325C74;
 }
 
+button:nth-child(5) {
+    width:  150px;
+   height: 140px;
+   margin-right: 0;
+   background-color: #ffb347;
+   color: #FF7547;
+}
+
 
 #cont {
   width: 100px;
   height: 50px;
   font-size: 20px;
   margin-left: 620px;
+  margin-bottom: 30px;
   background-color: #C71585;
   color: white;
   display: inline-block;
   border: none;
+  cursor: pointer;
 }
 
 footer {
@@ -95,10 +107,13 @@ footer {
 #try {
 background-color: #aaaaaa;
 display: none;
-padding: 10px;
 font-size: 20px;
 margin-left: 620px;
+margin-bottom: 30px;
 cursor: pointer;
+width: 100px;
+height: 50px;
+border: none;
 }
 
 #status{

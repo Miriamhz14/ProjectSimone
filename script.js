@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 
   var buttons = $('.btn');
-  var cubes =[ 1,2,3,4];
+  var cubes =[ 1,2,3,4,5];
   var counter = 0;
   var cont = $('#cont');
   var newPat = $('#pat');
@@ -42,7 +42,7 @@ $(document).ready(function(){
         score++;
         scoreDisplay.text('Score: ' + score);
         tracker = [];
-      if (score === 1){
+      if (score === 3){
         status.text('YOU WON!!!!!!!!!');
         status.animate({'font-size':'40px'},100);
         status.animate({'margin-left':'40px'},100);
@@ -54,6 +54,7 @@ $(document).ready(function(){
       if ((tracker.toString() !== arrRnd.toString()) && (tracker.length === arrRnd.length)){
         status.text('Status: Try Again');
         restart.css('display','inline-block');
+        cont.css('display','none')
     }
   }
     console.log(tracker);
@@ -68,13 +69,13 @@ $(document).ready(function(){
   // used to create a random pattern that spits out four numbers and after that adds one more
     var pattern = function(num){
       for (var i = 0; i<num; i++){
-        arrRnd.push(rndRange(1,4));
+        arrRnd.push(rndRange(1,5));
         }
         $('#pat').text('Pattern: ' + arrRnd);
     }
   cont.click(function(event){
       if (counter === 0){
-        pattern(4);
+        pattern(2);
         counter++;
     }
      else {
