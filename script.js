@@ -49,12 +49,14 @@ $(document).ready(function(){
         status.animate({'margin-left':'0px'},100);
         status.animate({'margin-left':'40px'},100);
         status.animate({'margin-left':'0px'},100);
+        restart.css('display','inline-block');
+        cont.css('display','none');
       }
     }
       if ((tracker.toString() !== arrRnd.toString()) && (tracker.length === arrRnd.length)){
         status.text('Status: Try Again');
         restart.css('display','inline-block');
-        cont.css('display','none')
+        cont.css('display','none');
     }
   }
     console.log(tracker);
