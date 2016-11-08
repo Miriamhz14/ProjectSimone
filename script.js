@@ -82,6 +82,7 @@ $(document).ready(function(){
       pattern(1);
       counter++;
     }
+    status.text('Status: ');
       console.log(arrRnd);
  });
 
